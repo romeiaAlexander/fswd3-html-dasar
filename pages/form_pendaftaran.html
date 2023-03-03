@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+        <h1>Form pendaftaran SIB 2023</h1>
+
+        <label for="nama_lengkap">Nama Lengkap</label>
+        <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Masukan Nama Lengkap">
+        <br /> <br />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Masukan email">
+        <br /> <br />
+        <label for="no_hp">No. HP</label>
+        <input type="text" id="no_hp" name="no_hp" placeholder="Masukan No. HP">
+        <br /> <br />
+        <label for="jenis-kelamin">Jenis Kelamin</label>
+        <br/>
+        <input type="radio" name="jenis-kelamin" id="jk-laki">
+        <label for="jk-laki">Laki-laki</label> 
+        <br/>
+        <input type="radio" name="jenis-kelamin" id="jk-perempuan">
+        <label for="jk-laki">Perempuan</label> 
+        <br/> <br/>
+        <label>Jurusan</label>
+        <select name="jurusan" id="jurusan">
+            <option value="teknik-informatika">Teknik Informatika</option>
+            <option value="hukum">Hukum</option>
+            <option value="sistem-informasi">Sistem Informasi</option>
+        </select>
+        <br/>
+        <label for="alamat">Alamat</label>
+        <br/>
+        <textarea name="alamat" id="alamat" cols="30" rows="15" placeholder="Masukan Alamat"></textarea>
+        <br/>
+        <label for="foto">Foto</label>
+        <br/>
+        <input type="file" name="foto" id="foto">
+        <br/> <br/>
+        <input type="submit" value="Daftar">
+        <br/><br/>
+        <div style="display: flex; justify-content: center; gap: 5px;">
+            <a href="../pages\playlist.html"><button style="border-radius: 50px; background-color: aquamarine;">Halaman 3 (playlist)</button></a>
+            <a href="../pages\semantic.html"><button style="border-radius: 50px; background-color: aquamarine;">Halaman 5 (semantic)</button></a>
+            </div>
+
+
+</body>
+</html>
