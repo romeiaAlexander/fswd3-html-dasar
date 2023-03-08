@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.card {
+    background-color:blanchedalmond;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+}
+  
+.container .card img {
+    width: 200px;
+    height: 200px;
+}
+  
+.container .card .container {
+    padding: 10px;
+    text-align: center;
+}
+
+  
