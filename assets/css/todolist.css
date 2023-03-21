@@ -1,0 +1,40 @@
+.container {
+    width: flex;
+}
+
+.container-content{
+    margin: auto;
+    width: fit-content;
+    background-color: bisque;
+    padding-top: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#inputField {
+  width: 500px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#addToDo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
